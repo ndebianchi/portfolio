@@ -1,0 +1,34 @@
+index.html:
+    ✔ montar pagina @done(20-09-02 12:18)
+    ✔ ajustar visual nav mobile @done(20-09-03 15:23)
+    ✔ titleChanger: arrumar versão mobile  @done(20-09-03 15:23)
+    ☐ adicionar link de redes sociais (?)
+
+navbar (partial):
+    ✔ montar navbar @done(20-09-02 12:54)
+    ✔ aplicar nas outras páginas @done(20-09-02 12:54)
+    ✔ responsividade @done(20-09-03 15:24)
+    ☐ animação
+
+contact.html:
+    ✔ montar página @done(20-09-03 17:39)
+    ✔ aplicar google apps no mailto @done(20-09-03 18:01)
+    ☐ testar no github pages
+    ☐ ajustar a resposta do webapp sendmail (json feio > span bonito)    
+    ☐ ajustar css (visual/cores)    
+    ☐ fazer novos ícones
+
+about.html:
+    ☐ montar página
+
+portfolio.html:
+    ☐ montar página principal
+
+portfolio subpáginas:
+    mural:
+    ☐ montar página
+    perfil:
+    ☐ montar página
+
+
+
