@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;    
+}
+
+h1 { color: #000; }
+
+h3 { color: #FF005F; }
+
+p { color: #000; }
+
+hr { border-color: #FF005F;}
+
+/* navbar */
+.navbar a { color: #000; }
+.navbar div a { border: 3px solid #FFF; }

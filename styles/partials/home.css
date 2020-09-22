@@ -4,9 +4,9 @@
     color: #FF005F;
 }
 
-hr {
-    color: #FFF;
+hr {   
     width: 90%;
+    border-color: #FFF;
     border-width: 0 0 3px 0;
     margin-bottom: 40px;
     margin-top: 20px;

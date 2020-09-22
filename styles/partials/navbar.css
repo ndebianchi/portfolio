@@ -4,9 +4,6 @@
     padding: 10px;
     width: 90%;
     margin: 0 auto;
-
-    /* apagar */
-    /* border: 2px solid aqua; */
 }
 
 .navbar a {
@@ -23,7 +20,6 @@
 
 .navbar div a:hover {
     border: 3px solid #FF005F;
-    /* color: #FF005F; */
 }
 
 .nav-logo {

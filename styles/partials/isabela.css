@@ -1,0 +1,11 @@
+.isa-container {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.isa-container img {
+    width: 100%;    
+    box-sizing: border-box;
+    margin: 0;
+}

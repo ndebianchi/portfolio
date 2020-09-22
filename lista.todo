@@ -29,8 +29,9 @@ portfolio.html:
     ✔ montar página principal @done(20-09-22 17:03)
     ☐ criar e aplicar thumbs
     ☐ animações
+    ☐ criar template "Voltar/Titulo/Descrição" das subpaginas
 
-portfolio subpáginas:
+portfolio subpáginas:    
     mural:
     ☐ montar página
     hex:
