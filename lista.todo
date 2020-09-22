@@ -13,10 +13,13 @@ navbar (partial):
 contact.html:
     ✔ montar página @done(20-09-03 17:39)
     ✔ aplicar google apps no mailto @done(20-09-03 18:01)
-    ☐ testar no github pages
-    ☐ ajustar a resposta do webapp sendmail (json feio > span bonito)    
-    ☐ ajustar css (visual/cores)    
+    ✔ testar no github pages: FUNCIONA! @done(20-09-03 18:20)
+    ✔ ajustar a resposta do webapp sendmail (json feio > span bonito) @done(20-09-04 14:59)
+    ✔ ajustar css (visual/cores) @done(20-09-04 15:00)
+    ☐ ajustar tamanho dos ícones    
+    ☐ ajustar tamanho do título
     ☐ fazer novos ícones
+    ☐ send form > wait
 
 about.html:
     ☐ montar página
