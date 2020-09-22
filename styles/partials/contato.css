@@ -72,6 +72,15 @@
     margin-top: 50px;
 }
 
+.form-constrainer{
+    width: 100%;
+    max-width: 1000px;  
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 @media (max-width: 760px) {
     .contato { width: 90%; }
     .social-media {width: 50%;}

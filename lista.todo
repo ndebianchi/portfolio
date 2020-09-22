@@ -16,13 +16,14 @@ contact.html:
     ✔ testar no github pages: FUNCIONA! @done(20-09-03 18:20)
     ✔ ajustar a resposta do webapp sendmail (json feio > span bonito) @done(20-09-04 14:59)
     ✔ ajustar css (visual/cores) @done(20-09-04 15:00)
-    ☐ ajustar tamanho dos ícones    
-    ☐ ajustar tamanho do título
+    ✔ ajustar tamanho dos ícones @done(20-09-22 13:41)    
     ☐ fazer novos ícones
+    ☐ adicionar títulos?
     ☐ send form > wait
 
 about.html:
-    ☐ montar página
+    ✔ montar página @done(20-09-22 13:35)
+    ☐ aplicar novos ícones (social media)
 
 portfolio.html:
     ☐ montar página principal
