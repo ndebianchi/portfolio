@@ -18,6 +18,7 @@ contact.html:
     ✔ ajustar css (visual/cores) @done(20-09-04 15:00)
     ✔ ajustar tamanho dos ícones @done(20-09-22 13:41)    
     ☐ fazer novos ícones
+    ☐ aplicar novos ícones
     ☐ adicionar títulos?
     ☐ send form > wait
 
@@ -27,9 +28,9 @@ about.html:
 
 portfolio.html:
     ✔ montar página principal @done(20-09-22 17:03)
-    ☐ criar e aplicar thumbs
-    ☐ animações
-    ☐ criar template "Voltar/Titulo/Descrição" das subpaginas
+    ✔ criar e aplicar thumbs @done(20-09-23 18:33)
+    ✔ animações @done(20-09-23 18:33)
+    ✔ criar e aplicar template "Voltar/Titulo/Descrição" das subpaginas @done(20-09-23 18:33)
 
 portfolio subpáginas:    
     mural:
@@ -37,7 +38,8 @@ portfolio subpáginas:
     hex:
     ☐ montar página
     isa:
-    ☐ montar página
+    ✔ montar página @done(20-09-23 18:33)
+    ☐ arrumar imagens
     perfil:
     ☐ montar página
     ilustras:

@@ -14,3 +14,9 @@ hr { border-color: #FF005F;}
 /* navbar */
 .navbar a { color: #000; }
 .navbar div a { border: 3px solid #FFF; }
+
+/* portfolio partials */
+.project-header h3 { color: #000; }
+.project-header img { filter: invert(100%); }
+.project-text p { color: #000; }
+
