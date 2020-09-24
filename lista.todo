@@ -35,16 +35,25 @@ portfolio.html:
 portfolio subpáginas:    
     mural:
     ☐ montar página
+    
     hex:
     ☐ montar página
+    
     isa:
     ✔ montar página @done(20-09-23 18:33)
     ✔ arrumar imagens @done(20-09-24 14:48)
     ☐ testar imagem com maior compressão
+    
     perfil:
-    ☐ montar página
+    ✔ montar página @done(20-09-24 18:08)
+    ☐ darken green perfil
+    ☐ check prev/next btn
+    ☐ add lightbox?
+    
     ilustras:
-    ☐ montar página
+    ✔ montar página @done(20-09-24 18:18)
+    ☐ fix img sizes
+    
     catalogos:
     ✔ montar página @done(20-09-24 15:48)
     ☐ reduzir pdfs e covers

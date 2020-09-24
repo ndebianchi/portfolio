@@ -1,5 +1,6 @@
 @import "./isabela.css";
 @import "./catalogos.css";
+@import "./galeria.css";
 
 /* Project Selection */
 
@@ -27,15 +28,10 @@
     width: 35%;
     height: 130px;
     min-width: 300px;
-    filter: grayscale(100%);
-    
+    filter: grayscale(100%);    
     position: relative;
     overflow: hidden;   
-
     text-decoration: none;
-
-   /* apagar? */
-    background-color: crimson;
 }
 
 .p-item:hover {
