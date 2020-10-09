@@ -31,10 +31,12 @@ portfolio.html:
     ✔ criar e aplicar thumbs @done(20-09-23 18:33)
     ✔ animações @done(20-09-23 18:33)
     ✔ criar e aplicar template "Voltar/Titulo/Descrição" das subpaginas @done(20-09-23 18:33)
+    ☐ reduzir thumbnail filesize
 
 portfolio subpáginas:    
     mural:
-    ☐ montar página
+    ✔ montar página @done(20-10-09 17:13)
+    ☐ testar imagens com maior compressão
     
     hex:
     ☐ montar página
