@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mural | Nicolas Debianchi</title>
     <link rel="stylesheet" href="../../styles/styles.css">
+    <script src="../../scripts/galeriaModal.js" defer></script>
 </head>
 
 <body>
@@ -28,10 +29,46 @@
         
         <div class="project-text">
             <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,
-                or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                O objetivo do Mural como rede social interna do seu prédio ou condomínio é facilitar a vida e comunicação dos moradores.<br />
+                Através de um feed principal, os condôminos podem ter acesso aos avisos feitos pela sindicância, registrar ocorrências, postar informações sobre o prédio, fazer reservas e até ver os gastos do prédio. Tudo em uma interface descomplicada e responsiva.<br />
+                O site foi desenvolvido durante o curso de Desenvolvimento Web Full Stack na Digital House Brasil. Montado no modelo MVC usando EJS, o front-end utiliza HTML, CSS e Javascript. Já o back-end conta com uma solução de NodeJS e Express junto a várias outras ferramentas que cuidam desde o armazenamento de arquivos e validação de dados até criptografia e segurança. Além disso, utiliza o Sequelize e MySQL para cuidar do banco de dados.<br />
+                <br />
+                <a href="https://github.com/ndebianchi/mural" target="_blank">GitHub do projeto</a>
             </p>
+        </div>
+
+        <div class="galeria-container">
+            <div class="galeria-item">
+                <img src="../../images/mural/001.gif" class="img-item">
+            </div>
+            <div class="galeria-item">
+                <img src="../../images/mural/002.gif" class="img-item">
+            </div>
+            <div class="galeria-item">
+                <img src="../../images/mural/003.gif" class="img-item">
+            </div>
+            <div class="galeria-item">
+                <img src="../../images/mural/004.gif" class="img-item">
+            </div>
+            <div class="galeria-item">
+                <img src="../../images/mural/005.gif" class="img-item">
+            </div>
+            <div class="galeria-item">
+                <img src="../../images/mural/006.gif" class="img-item">
+            </div>             
+        </div>
+
+        <div class="painel-container">
+            <img src="../../images/mural/painel001.jpg" alt="" srcset="">        
+        </div>     
+
+
+        <!-- modal -->
+        <div class="modal">
+            <img class="modal-img">
+            <span class="close-modal">&times;</span>
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
         </div>
     </section>
 
