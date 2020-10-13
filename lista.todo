@@ -31,12 +31,13 @@ portfolio.html:
     ✔ criar e aplicar thumbs @done(20-09-23 18:33)
     ✔ animações @done(20-09-23 18:33)
     ✔ criar e aplicar template "Voltar/Titulo/Descrição" das subpaginas @done(20-09-23 18:33)
-    ☐ reduzir thumbnail filesize
+    ✔ reduzir thumbnail filesize @done(20-10-13 12:37)
 
-portfolio subpáginas:    
+portfolio subpáginas:
+    ✔ imagens com maior compressão @done(20-10-13 12:37)
+
     mural:
     ✔ montar página @done(20-10-09 17:13)
-    ☐ testar imagens com maior compressão
     
     hex:
     ☐ montar página
@@ -44,11 +45,10 @@ portfolio subpáginas:
     isa:
     ✔ montar página @done(20-09-23 18:33)
     ✔ arrumar imagens @done(20-09-24 14:48)
-    ☐ testar imagem com maior compressão
     
     perfil:
     ✔ montar página @done(20-09-24 18:08)
-    ☐ darken green perfil
+    ✔ darken green perfil @done(20-10-13 12:37)
     ☐ check prev/next btn
     ☐ add lightbox?
     
@@ -58,7 +58,6 @@ portfolio subpáginas:
     
     catalogos:
     ✔ montar página @done(20-09-24 15:48)
-    ☐ reduzir pdfs e covers
 
     
 
