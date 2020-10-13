@@ -2,13 +2,13 @@ index.html:
     ✔ montar pagina @done(20-09-02 12:18)
     ✔ ajustar visual nav mobile @done(20-09-03 15:23)
     ✔ titleChanger: arrumar versão mobile  @done(20-09-03 15:23)
-    ☐ adicionar link de redes sociais (?)
 
 navbar (partial):
     ✔ montar navbar @done(20-09-02 12:54)
     ✔ aplicar nas outras páginas @done(20-09-02 12:54)
     ✔ responsividade @done(20-09-03 15:24)
     ☐ animação
+    ☐ nav mobile onclick style: melhorar
 
 contact.html:
     ✔ montar página @done(20-09-03 17:39)
@@ -35,12 +35,16 @@ portfolio.html:
 
 portfolio subpáginas:
     ✔ imagens com maior compressão @done(20-10-13 12:37)
+    ☐ galeria: navegar com setas e swipes
+    ☐ check prev/next btn
+    ☐ add lightbox?
 
     mural:
     ✔ montar página @done(20-10-09 17:13)
     
     hex:
     ☐ montar página
+    ☐ substituir projeto (?)
     
     isa:
     ✔ montar página @done(20-09-23 18:33)
@@ -48,13 +52,11 @@ portfolio subpáginas:
     
     perfil:
     ✔ montar página @done(20-09-24 18:08)
-    ✔ darken green perfil @done(20-10-13 12:37)
-    ☐ check prev/next btn
-    ☐ add lightbox?
+    ✔ darken green perfil @done(20-10-13 12:37)    
     
     ilustras:
     ✔ montar página @done(20-09-24 18:18)
-    ☐ fix img sizes
+    ✔ fix img sizes @done(20-10-13 12:51)
     
     catalogos:
     ✔ montar página @done(20-09-24 15:48)
