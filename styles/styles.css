@@ -20,5 +20,10 @@ h1 { color: #FFF; }
 
 h3 { color: #FF005F; }
 
+h4 { 
+    color: #FF005F;
+    font-weight: 400;
+ }
+
 p { color: #FFF; }
 
