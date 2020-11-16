@@ -61,6 +61,19 @@
     width: 100%;
 }
 
+.mural-gitbtn {
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 100px;
+    border: 2px solid #FF005F;
+    color: #FF005F;
+}
+
+.mural-gitbtn:hover {
+    background-color: #FF005F;
+    color: white;
+}
+
 /* Flickity */
 .main-gallery {
     margin-bottom: 100px;
