@@ -15,7 +15,8 @@
 .mural-txt {
     width: 60%;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 30px;  
+    margin-top: 30px;  
 }
 
 .mural-txt h1 {
@@ -34,6 +35,7 @@
 
 .mural-txt p {
     font-weight: 200;
+    font-size: 1.2rem;
 }
 
 .split {
@@ -54,7 +56,7 @@
 }
 
 .persona-card {
-    width: 23%;
+    width: 25%;
 }
 
 .persona-card img {
