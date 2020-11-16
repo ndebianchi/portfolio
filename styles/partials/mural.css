@@ -1,0 +1,83 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.mural-main {
+    text-align: center;
+    width: 100%;
+}
+
+.mural-main img {
+    width: 70%;
+}
+
+.mural-txt {
+    width: 60%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.mural-txt h1 {
+    font-weight: 300;
+    margin: 0 auto 15px;    
+    font-size: 2rem;
+    color: #FF005F;
+}
+
+.mural-txt hr {
+    width: 25%;
+    margin: 0 auto 20px;
+    border-color: #c6c6c6;
+    border-width: 0 0 2px 0;
+}
+
+.mural-txt p {
+    font-weight: 200;
+}
+
+.split {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.split-content {
+    width: 40%;
+}
+
+.mural-personas {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.persona-card {
+    width: 23%;
+}
+
+.persona-card img {
+    width: 100%;
+}
+
+/* Flickity */
+.main-gallery {
+    margin-bottom: 100px;
+}
+
+.gallery-cell {
+    width: 65%;
+}
+
+.gallery-cell p {
+    padding: 0 20px;
+}
+
+
+ 
+.flickity-page-dots .dot.is-selected {
+    background: #FF005F;
+}
+
+

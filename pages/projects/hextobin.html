@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hex to Bin | Nicolas Debianchi</title>
     <link rel="stylesheet" href="../../styles/styles.css">
+    <link rel="stylesheet" href="../../styles/partials/white-mode.css">
+    <link rel="stylesheet" href="../../styles/partials/flickity.css" media="screen">    
 </head>
 
 <body>
@@ -20,62 +22,172 @@
     </nav>
     <hr>
 
-    <section class="main-container">        
+    <section class="main-container">
         <div class="project-header">
-            <a href="../portfolio.html"><img src="../../images/logos/back.svg"><h3>Voltar</h3></a>
-            <h1>Mural</h1>
+            <a href="../portfolio.html"><img src="../../images/logos/back.svg">
+                <h3>Voltar</h3>
+            </a>
         </div>
-        
-        <div class="project-text">
-            <h3>1. Mural</h3>
-            <p>
-                Uma rede social projetada para uso em prédios e condomínios. Seu foco está na solução de problemas específicos desse cenário com uma interface familiar que evidencia todas as ações mais importantes para o usuário.
-            </p>
 
-            <h3>2. Concorrência | Benchmark</h3>
-            <p>
-                As soluções mais utilizadas são grupos de Whatsapp e Facebook, entretanto não são soluções especializadas. Dessa forma, além de informações importantes serem perdidas no fluxo constante de mensagens, não possuem ferramentas específicas para o condomínio.
-                Além disso, as soluções específicas já existentes no mercado não possuem a facilidade que as ferramentas mais populares têm.
-            </p>
 
-            <h3>3. Público-alvo</h3>
-            <p>Como o foco são os moradores de cada condomínio, temos uma alta variedade de usuários. Sendo assim, para que a plataforma seja bem aceita, ela deve ser familiar ao uso.</p>
+        <div class="mural-main">
+            <img src="../../images/mural_new/header.png">
+            <div class="mural-txt">
+                <h1>O que é o Mural?</h1>
+                <hr>
+                <p>
+                    É uma rede social projetada para uso em prédios e condomínios.
+                    Seu foco está na solução de problemas específicos desse cenário
+                    com uma interface familiar que evidencia todas as ações mais importantes para o usuário.
+                </p>
+            </div>
 
-            <h3>4. Problemas e Soluções</h3>
-            <h4>4A. Uma interface Familiar</h4>
-            <p>Um dos principais desafios foi criar uma interface que seja familiar ao usuário, dessa forma ela foi desenvolvida de forma similar às plataformas mais utilizadas (Facebook e Twitter) desde o menu para navegação até o feed de informações.</p>
+            <div class="mural-txt">
+                <h1>Benchmark</h1>
+                <hr>
+                <div class="split">
+                    <div class="split-content">
+                        <img src="../../images/mural_new/placeholder1.png">
+                        <p>
+                            Apesar de serem mais utilizadas, grupos de Whatsapp e Facebook, não são soluções
+                            especializadas. Dessa forma, além de informações importantes serem perdidas no fluxo
+                            constante de mensagens, não possuem ferramentas específicas para o condomínio.
+                        </p>
+                    </div>
+                    <div class="split-content">
+                        <img src="../../images/mural_new/placeholder1.png">
+                        <p>
+                            Já as soluções específicas existentes no mercado não possuem a facilidade das ferramentas
+                            mais populares.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-            <h4>4B. Acesso à Plataforma</h4>
-            <p>Levando em conta que a plataforma será mais usada em smartphones do que computadores, criamos uma site completamente responsivo para ser usado em qualquer lugar.</p>
+            <div class="mural-txt">
+                <h1>Personas</h1>
+                <hr>
+                <div class="mural-personas">
+                    <div class="persona-card"><img src="../../images/mural_new/personaX.png"></div>
+                    <div class="persona-card"><img src="../../images/mural_new/personaX.png"></div>
+                    <div class="persona-card"><img src="../../images/mural_new/personaX.png"></div>
+                    <div class="persona-card"><img src="../../images/mural_new/personaX.png"></div>
+                </div>
+                <p>
+                    Como o foco são os moradores de cada condomínio, temos uma alta variedade de usuários. Sendo assim,
+                    para que a plataforma seja bem aceita, ela deve ser familiar ao uso.
+                </p>
+            </div>
 
-            <h4>4C. Tipos de Usuários</h4>
-            <p>É importante ter um ambiente controlado, para isso dividimos os usuários em dois perfis: síndico (administrador) e morador.</p>
+            <div class="mural-txt">
+                <h1>Problemas e Soluções</h1>
+                <hr>
 
-            <h4>4D. Acesso à Informação</h4>
-            <p>Para que as informações mais importantes não se percam entre as postagens de usuários, o síndico pode postar em forma de aviso, um tipo de postagem persistente que tem o seu próprio feed (carrossel) acima do feed principal</p>
+                <div class="main-gallery js-flickity"
+                 data-flickity-options='{ "cellAlign": "center", "wrapAround": true }'>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h3>Uma interface familiar</h3>
+                        <p>                            
+                            Um dos principais desafios foi criar uma interface que seja familiar ao usuário, dessa forma
+                            ela foi desenvolvida de forma similar às plataformas mais utilizadas (Facebook e Twitter)
+                            desde o menu para navegação até o feed de informações.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h3>Acesso à informação</h3>
+                        <p>
+                            Para que as informações mais importantes não se percam entre as postagens de usuários, o
+                            síndico pode postar em forma de aviso, um tipo de postagem persistente que tem o seu próprio
+                            feed (carrossel) acima do feed principal
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h3>Acesso à plataforma</h3>
+                        <p>
+                            Levando em conta que a plataforma será mais usada em smartphones do que computadores,
+                            criamos uma site completamente responsivo para ser usado em qualquer lugar.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h3>Tipos de usuários</h3>
+                        <p>
+                            É importante ter um ambiente controlado, para isso dividimos os usuários em dois perfis:
+                            síndico (administrador) e morador.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h3>Posts relevantes</h3>
+                        <p>
+                            No mural cada post tem um tipo diferente: post comum, classificados, serviços etc. Dessa
+                            forma deixamos na mão do usuário o poder de filtrar e personalizar seu próprio feed.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h3>Um lugar tranquilo</h3>
+                        <p>
+                            Por ter um foco em informações relevantes, não tentamos substituir as redes sociais que o
+                            usuário já usa. Logo, limitamos a interação a apenas curtir os posts, diminuindo assim as
+                            interações excessivas e abusivas.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-            <h4>4E. Posts Relevantes</h4>
-            <p>No mural cada post tem um tipo diferente: post comum, classificados, serviços etc. Dessa forma deixamos na mão do usuário o poder de filtrar e personalizar seu próprio feed.</p>
 
-            <h4>4F. Um lugar tranquilo</h4>
-            <p>Por ter um foco em informações relevantes, não tentamos substituir as redes sociais que o usuário já usa. Logo, limitamos a interação a apenas curtir os posts, diminuindo assim as interações excessivas e abusivas.</p>
 
-            <h3>5. Ferramentas do Condomínio</h3>
-            <p>Não podemos esquecer que além de uma rede social, ela também é uma plataforma para o condomínio. E possui diversas ferramentas para facilitar a vida de condôminos e moradores como: </p>
-            <p>
-                <ul>
-                    <li>Livro de Ocorrências</li>
-                    <li>Reservas</li>
-                    <li>Agenda de Eventos</li>
-                    <li>Prestação de Contas</li>
-                    <li>2ª Via do Condomínio</li>
-                    <li>Achados e Perdidos</li>
-                </ul>
-            </p>
-            
+            <div class="mural-txt">
+                <h1>Ferramentas do Condomínio</h1>
+                <hr>
+                <p>
+                    Não podemos esquecer que além de uma rede social, o Mural também é uma plataforma para o condomínio.
+                    Sendo assim, possui diversas ferramentas para facilitar a vida de moradores e funcionários como:
+                </p>
+
+                <div class="main-gallery js-flickity"
+                data-flickity-options='{ "cellAlign": "center", "wrapAround": true }'>                
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h1>Livro de Ocorrências</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h1>Reservas</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h1>Agenda de Eventos</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h1>Prestação de Contas</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h1>2ª Via do Condomínio</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/placeholder2.png">
+                        <h1>Achados e Perdidos</h1>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+
 
         </div>
+
+
+
     </section>
-
+    <script src="../../scripts/flickity.pkgd.js"></script>
 </body>
+
 </html>
