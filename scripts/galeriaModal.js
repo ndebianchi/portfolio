@@ -2,8 +2,8 @@ let modal = document.querySelector(".modal");
 let images = document.querySelectorAll(".img-item");
 let modalImg = document.querySelector(".modal-img");
 let span = document.querySelector(".close-modal");
-let next = document.querySelector(".next");
-let prev = document.querySelector(".prev")
+let next = document.querySelector(".gal-next");
+let prev = document.querySelector(".gal-prev")
 
 const openModal = (img) => {
   modal.style.display = "block";
