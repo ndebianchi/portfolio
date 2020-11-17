@@ -69,17 +69,19 @@
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = function() {
           if (xhr.readyState === 4 && xhr.status === 200) {
-            form.reset();
+            // form.reset();
             let contactForm = document.querySelector(".contato");
             let thanksSpan = document.querySelector(".thanks");
             if (contactForm.style.display != "none"){
-                contactForm.style.display = "none"
-                thanksSpan.style.display = "block"
+                // contactForm.style.display = "none"
+                // thanksSpan.style.display = "block"
+                window.location.href = "./contact-success.html"
                  
-            } else {
-                contactForm.style.display = "flex"
-                thanksSpan.style.display = "none"
             } 
+            // else {
+            //     contactForm.style.display = "flex"
+            //     thanksSpan.style.display = "none"                
+            // } 
           }
       };
 
