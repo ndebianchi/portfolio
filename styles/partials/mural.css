@@ -76,6 +76,26 @@
     color: white;
 }
 
+.mural-icone {    
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.mural-icones-galeria{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.mural-icones-galeria div{
+    width: 20%;
+    margin: 30px;
+}
+
+.mural-icones-galeria h1{
+    font-size: 1.3rem;
+}
+
 /* Flickity */
 .main-gallery {
     margin-bottom: 100px;

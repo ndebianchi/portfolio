@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mural | Nicolas Debianchi</title>
     <link rel="stylesheet" href="../../styles/styles.css">
+    <link rel="stylesheet" href="../../styles/partials/white-mode.css">
+    <link rel="stylesheet" href="../../styles/partials/flickity.css">
     <script src="../../scripts/galeriaModal.js" defer></script>
 </head>
 
@@ -21,46 +23,244 @@
     </nav>
     <hr>
 
-    <section class="main-container">        
+    <section class="main-container">
         <div class="project-header">
-            <a href="../portfolio.html"><img src="../../images/logos/back.svg"><h3>Voltar</h3></a>
-            <h1>Mural</h1>
+            <a href="../portfolio.html"><img src="../../images/logos/back.svg">
+                <h3>Voltar</h3>
+            </a>
         </div>
+
+
+        <div class="mural-main">
+            <img src="../../images/mural_new/header.png">
+            <div class="mural-txt">
+                <h1>O que é o Mural?</h1>
+                <hr>
+                <p>
+                    É uma rede social projetada para uso em prédios e condomínios.
+                    Seu foco está na solução de problemas específicos desse cenário
+                    com uma interface familiar que evidencia todas as ações mais importantes para o usuário.
+                </p>
+            </div>
+
+            <div class="mural-txt">
+                <h1>Benchmark</h1>
+                <hr>
+                <div class="split">
+                    <div class="split-content">
+                        <img src="../../images/mural_new/benchmark1_b.png">
+                        <p>
+                            Apesar de serem mais utilizadas, grupos de Whatsapp e Facebook, não são soluções
+                            especializadas. Dessa forma, além de informações importantes serem perdidas no fluxo
+                            constante de mensagens, não possuem ferramentas específicas para o condomínio.
+                        </p>
+                    </div>
+                    <div class="split-content">
+                        <img src="../../images/mural_new/benchmark2_b.png">
+                        <p>
+                            Já as soluções específicas existentes no mercado não possuem a facilidade das ferramentas
+                            mais populares.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mural-txt">
+                <h1>Personas</h1>
+                <hr>
+                <div class="mural-personas">
+                    <div class="persona-card"><img src="../../images/mural_new/persona_1.jpg" class="img-item"></div>
+                    <div class="persona-card"><img src="../../images/mural_new/persona_2.jpg" class="img-item"></div>
+                    <div class="persona-card"><img src="../../images/mural_new/persona_3.jpg" class="img-item"></div>
+                    <div class="persona-card"><img src="../../images/mural_new/persona_4.jpg" class="img-item"></div>
+                </div>
+                <p style="font-style: italic;">clique na persona para ampliar</p>
+                <p>
+                    Como o foco são os moradores de cada condomínio, temos uma alta variedade de usuários. Sendo assim,
+                    para que a plataforma seja bem aceita, ela deve ser familiar ao uso.
+                </p>
+            </div>
+
+            <div class="mural-txt">
+                <h1>Problemas e Soluções</h1>
+                <hr>
+
+                <div class="main-gallery js-flickity"
+                    data-flickity-options='{ "cellAlign": "center", "wrapAround": true }'>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/solucoes-01.png">
+                        <h3>Uma interface familiar</h3>
+                        <p>
+                            Um dos principais desafios foi criar uma interface que seja familiar ao usuário, dessa forma
+                            ela foi desenvolvida de forma similar às plataformas mais utilizadas (Facebook e Twitter)
+                            desde o menu para navegação até o feed de informações.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/solucoes-02.png">
+                        <h3>Acesso à informação</h3>
+                        <p>
+                            Para que as informações mais importantes não se percam entre as postagens de usuários, o
+                            síndico pode postar em forma de aviso, um tipo de postagem persistente que tem o seu próprio
+                            feed (carrossel) acima do feed principal
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/solucoes-03.png">
+                        <h3>Acesso à plataforma</h3>
+                        <p>
+                            Levando em conta que a plataforma será mais usada em smartphones do que computadores,
+                            criamos uma site completamente responsivo para ser usado em qualquer lugar.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/solucoes-04.png">
+                        <h3>Tipos de usuários</h3>
+                        <p>
+                            É importante ter um ambiente controlado, para isso dividimos os usuários em dois perfis:
+                            síndico (administrador) e morador.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/solucoes-05.png">
+                        <h3>Posts relevantes</h3>
+                        <p>
+                            No mural cada post tem um tipo diferente: post comum, classificados, serviços etc. Dessa
+                            forma deixamos na mão do usuário o poder de filtrar e personalizar seu próprio feed.
+                        </p>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/solucoes-06.png">
+                        <h3>Um lugar tranquilo</h3>
+                        <p>
+                            Por ter um foco em informações relevantes, não tentamos substituir as redes sociais que o
+                            usuário já usa. Logo, limitamos a interação a apenas curtir os posts, diminuindo assim as
+                            interações excessivas e abusivas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="mural-txt">
+                <h1>Ferramentas do Condomínio</h1>
+                <hr>
+                <p>
+                    Não podemos esquecer que além de uma rede social, o Mural também é uma plataforma para o condomínio.
+                    Sendo assim, possui diversas ferramentas para facilitar a vida de moradores e funcionários como:
+                </p>
+
+                <!-- GALERIA ICONES -->
+                <!-- <div class="main-gallery js-flickity"
+                    data-flickity-options='{ "cellAlign": "center", "wrapAround": true }'>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/icones/ocorrencias.svg" class="mural-icone">
+                        <h1>Livro de Ocorrências</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/icones/reservas.svg" class="mural-icone">
+                        <h1>Reservas</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/icones/agenda.svg" class="mural-icone">
+                        <h1>Agenda de Eventos</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/icones/contas2.svg" class="mural-icone">
+                        <h1>Prestação de Contas</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/icones/2via.svg" class="mural-icone">
+                        <h1>2ª Via do Condomínio</h1>
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/mural_new/icones/achados3.svg" class="mural-icone">
+                        <h1>Achados e Perdidos</h1>
+                    </div>
+                </div> -->
+
+                <!-- ICONES CARDS -->
+                <div class="mural-icones-galeria">
+                    <div>
+                        <img src="../../images/mural_new/icones/ocorrencias.svg" class="mural-icone">
+                        <h1>Livro de Ocorrências</h1>
+                    </div>
+                    <div>
+                        <img src="../../images/mural_new/icones/reservas.svg" class="mural-icone">
+                        <h1>Reservas</h1>
+                    </div>
+                    <div>
+                        <img src="../../images/mural_new/icones/agenda.svg" class="mural-icone">
+                        <h1>Agenda de Eventos</h1>
+                    </div>
+                    <div>
+                        <img src="../../images/mural_new/icones/contas2.svg" class="mural-icone">
+                        <h1>Prestação de Contas</h1>
+                    </div>
+                    <div>
+                        <img src="../../images/mural_new/icones/2via.svg" class="mural-icone">
+                        <h1>2ª Via do Condomínio</h1>
+                    </div>
+                    <div>
+                        <img src="../../images/mural_new/icones/achados3.svg" class="mural-icone">
+                        <h1>Achados e Perdidos</h1>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="mural-txt">
+                <h1>Tech Talk</h1>
+                <hr>
+                <img src="../../images/mural_new/codigo.png">
+                <p>
+                    Montado no modelo MVC usando EJS, o front-end utiliza HTML, CSS e Javascript. Já o backend conta
+                    com uma solução de NodeJS e Express junto a várias outras ferramentas que cuidam desde o
+                    armazenamento de arquivos e validação de dados até criptografia e segurança. Além disso, utiliza o
+                    Sequelize e MySQL para cuidar do banco de dados.
+                </p>
+                <a class="mural-gitbtn" href="https://github.com/ndebianchi/mural" target="_blank">Veja o código no
+                    GitHub</a>
+            </div>
+
+            <div class="mural-txt">
+                <h1>Identidade Visual</h1>
+                <hr>
+                <img src="../../images/mural_new/painel_idv.jpg" style="width: 100%;">
+            </div>
+
+            <div class="mural-txt">
+                <h1>Galeria de Telas</h1>
+                <hr>
+                <div class="galeria-container">
+                    <div class="galeria-item">
+                        <img src="../../images/mural/001.gif" class="img-item" style="width: 100%;">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="../../images/mural/002.gif" class="img-item" style="width: 100%;">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="../../images/mural/003.gif" class="img-item" style="width: 100%;">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="../../images/mural/004.gif" class="img-item" style="width: 100%;">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="../../images/mural/005.gif" class="img-item" style="width: 100%;">
+                    </div>
+                    <div class="galeria-item">
+                        <img src="../../images/mural/006.gif" class="img-item" style="width: 100%;">
+                    </div>
+                </div>
+                <p style="font-style: italic;">clique na imagem para ampliar</p>
+            </div>
+            <br/>
+            <br/>   
+
+        </div>
+
         
-        <div class="project-text">
-            <p>
-                O objetivo do Mural como rede social interna do seu prédio ou condomínio é facilitar a vida e comunicação dos moradores.<br />
-                Através de um feed principal, os condôminos podem ter acesso aos avisos feitos pela sindicância, registrar ocorrências, postar informações sobre o prédio, fazer reservas e até ver os gastos do prédio. Tudo em uma interface descomplicada e responsiva.<br />
-                O site foi desenvolvido durante o curso de Desenvolvimento Web Full Stack na Digital House Brasil. Montado no modelo MVC usando EJS, o front-end utiliza HTML, CSS e Javascript. Já o back-end conta com uma solução de NodeJS e Express junto a várias outras ferramentas que cuidam desde o armazenamento de arquivos e validação de dados até criptografia e segurança. Além disso, utiliza o Sequelize e MySQL para cuidar do banco de dados.<br />
-                <br />
-                <a href="https://github.com/ndebianchi/mural" target="_blank">GitHub do projeto</a>
-            </p>
-        </div>
-
-        <div class="galeria-container">
-            <div class="galeria-item">
-                <img src="../../images/mural/001.gif" class="img-item">
-            </div>
-            <div class="galeria-item">
-                <img src="../../images/mural/002.gif" class="img-item">
-            </div>
-            <div class="galeria-item">
-                <img src="../../images/mural/003.gif" class="img-item">
-            </div>
-            <div class="galeria-item">
-                <img src="../../images/mural/004.gif" class="img-item">
-            </div>
-            <div class="galeria-item">
-                <img src="../../images/mural/005.gif" class="img-item">
-            </div>
-            <div class="galeria-item">
-                <img src="../../images/mural/006.gif" class="img-item">
-            </div>             
-        </div>
-
-        <div class="painel-container">
-            <img src="../../images/mural/painel001.jpg" alt="" srcset="">        
-        </div>     
+        
 
 
         <!-- modal -->
@@ -70,7 +270,9 @@
             <a class="gal-prev">&#10094;</a>
             <a class="gal-next">&#10095;</a>
         </div>
-    </section>
 
+    </section>
+    <script src="../../scripts/flickity.pkgd.js"></script>
 </body>
+
 </html>
