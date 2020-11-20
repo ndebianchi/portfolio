@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* Recolor Site Elements */
+.nav-active {
+    color: darkmagenta!important;
+}
+
+.nav-logo:hover {
+    color: darkmagenta;
+}
+
+.navbar div a:hover {
+    border: 3px solid darkmagenta;
+}
+
+hr { border-color: darkmagenta;}
+
+.flickity-page-dots .dot.is-selected {
+    background: darkmagenta;
+}
+ /* -------------------- */
+
+ /* Unique Elements */
+
+.teams-main {
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+    border: 1px solid aqua;
+}
+
+.teams-text {
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+}
+
+.teams-text h1{
+    font-size: 1.8rem;
+    color: darkmagenta;
+}
+
+.teams-text h3{
+    /* font-size: 1.8rem; */
+    color: darkmagenta;
+}
+
+.teams-text img{
+    width: 100%;
+}
+
+.h1-highlight {
+    font-size: 2rem;
+    border: 2px solid darkmagenta;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+.teams-quote {
+    font-size: 1.5rem;
+    padding: 20px;
+    border-top: 1px solid darkmagenta;
+    border-bottom: 1px solid darkmagenta;
+}
+
+.teams-quote span {
+    color: darkmagenta;
+    font-weight: 800;
+}
+
+.teams-2container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.teams-2container div {
+    width: 40%;
+}
+
+.teams-2container a {
+    text-decoration: none;    
+    border: 2px solid darkmagenta;
+    color: darkmagenta;
+    padding: 10px 25px;
+    font-weight: 600;    
+}
+
+.teams-2container a:hover {
+    color: white;
+    background-color: darkmagenta;
+}
+

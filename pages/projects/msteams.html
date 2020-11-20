@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilustrações | Nicolas Debianchi</title>
+    <title>MS Teams | Nicolas Debianchi</title>
     <link rel="stylesheet" href="../../styles/styles.css">
     <link rel="stylesheet" href="../../styles/partials/white-mode.css">
+    <link rel="stylesheet" href="../../styles/partials/msteams.css">
+    <link rel="stylesheet" href="../../styles/partials/flickity.css">
+    <script src="../../scripts/galeriaModal.js" defer></script>
 </head>
 
 <body>
@@ -19,30 +22,204 @@
             <a href="../about.html">Sobre Mim</a>
         </div>
     </nav>
-    <hr>
+    <hr style="border-color: darkmagenta;">
 
-    <section class="main-container">        
+    <section class="main-container">
         <div class="project-header">
-            <a href="../portfolio.html"><img src="../../images/logos/back.svg"><h3>Voltar</h3></a>
-            <h1>MS Teams | Update do Professor</h1>
-        </div>
-        
-        <div class="project-text">
-            <p>
-                Projeto não oficial de update do ms Teams para professores
-            </p>
+            <a href="../portfolio.html"><img src="../../images/logos/back.svg">
+                <h3>Voltar</h3>
+            </a>
         </div>
 
-        <!-- iframe figma -->
-        <div class="mural-txt">
-            <h1>Protótipo Final</h1>
-            <hr>
-            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7BEPMqK1w3xpSxXak3AH7%2FGrupo-4-MS-Teams%3Fnode-id%3D2%253A38%26scaling%3Dscale-down"
-            allowfullscreen></iframe>
+        <div class="teams-main">
+            <div class="teams-text">
+                <h1 class="h1-highlight">MS Teams | Update do Professor</h1>
+                <p>
+                    Projeto não oficial de update do MS Teams para professores
+                </p>
+            </div>
+
+            <!-- Problema, CSD e Benchmark -->
+            <div class="teams-text">
+                <h1 class="h1-highlight">O Ínicio</h1>
+                <h1> A Raiz do Problema</h1>
+                <p>
+                    Devido à pandemia da COVID-19, o ensino remoto foi adotado emergencialmente.<br />
+                    <br />
+                    Com isso, muitos alunos e professores foram impactados.<br />
+                    <br />
+                    Resolvemos então focar no professor para levantar as maiores dificuldades enfrentadas nessa
+                    adaptação do presencial para o remoto e chegamos ao desafio:
+                </p>
+
+                <br />
+                <p class="teams-quote">
+                    Como podemos ajudar <span>o professor</span> a amenizar <span>a transição para o EAD</span> de forma
+                    a conseguir <span>dar uma aula
+                        de qualidade</span> mesmo sabendo que <span>a falta de uma plataforma de ensino digital
+                        única</span> pode nos prejudicar?
+                </p>
+                <br />
+
+                <h1>Matriz CSD</h1>
+                <p>
+                    Com o problema definido, criamos uma Matriz CSD (Certeza, Suposições e Dúvidas), para avaliarmos e
+                    separarmos o que já era de conhecimento da equipe do que queríamos descobrir através de pesquisas.
+                </p>
+                <img src="../../images/msteams/CSD-placeholder.jpg">
+
+                <h1>Benchmark</h1>
+                <p>
+                    Nessa etapa levantamos os principais players do mercado, seu diferenciais e deficiências.
+                </p>
+
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                <!-- !!!! TROCAR IMG POR CARROSSEL !!!! -->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+                <img src="../../images/msteams/benchmark-placeholder.png">
+                <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+            </div>
+
+            <!-- Entrevistas e Achados -->
+            <div class="teams-text">
+                <h1 class="h1-highlight">Pesquisa e Persona</h1>
+
+                <h1>A Metodologia</h1>
+                <p>
+                    A partir da Matriz CSD e do Benchmark levantado, criamos dois formulários para a pesquisa:
+                </p>
+                <div class="teams-2container">
+                    <div>
+                        <img src="../../images/msteams/pesq-placeholder.png">
+                        <h3>Qualitativa</h3>
+                        <p>
+                            Um roteiro para entrevista de profundidade para descobrir melhor quais são as dores dos
+                            usuários.
+                        </p>
+                        <a href="http://pudim.com.br/" target="_blank">Veja o PDF</a>
+                    </div>
+                    <div>
+                        <img src="../../images/msteams/pesq-placeholder.png">
+                        <h3>Quantitativa</h3>
+                        <p>
+                            Um Google Forms adaptado do roteiro para atingir um número maior de pessoas e buscarmos
+                            respostas em números.
+                        </p>
+                        <a href="http://pudim.com.br/" target="_blank">Veja o PDF</a>
+                    </div>
+                </div>
+                <img src="../../images/msteams/meto1-placeholder.jpg" style="margin-top: 60px;">
+
+                <h1>Dados</h1>
+                <div class="main-gallery js-flickity"
+                    data-flickity-options='{ "cellAlign": "center", "wrapAround": true }'>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                    <div class="gallery-cell">
+                        <img src="../../images/msteams/grafico-placeholder.jpg">
+                    </div>
+                </div>
+
+                <h1>Perfil dos Entrevistados</h1>
+                <img src="../../images/msteams/perfil-placeholder.jpg">
+
+                <h1>Persona</h1>
+                <p>
+                    Baseado em todos os dados levantados pelas pesquisas e entrevistas, chegamos à persona que mais
+                    representa o público-alvo que estamos tentando abordar.
+                </p>
+                <img src="../../images/msteams/persona-placeholder.jpg">
+            </div>
+
+            <div class="teams-text">
+                <h1 class="h1-highlight">Os Problemas</h1>
+
+                <h1>Definindo as Dificuldades</h1>
+                <img src="../../images/msteams/dificuldades-placeholder.jpg">
+
+                <div class="teams-2container">
+                    <div>
+                        <h3>Perfil do Cliente</h3>
+                        <img src="../../images/msteams/perfil-do-cliente-placeholder.jpg" class="img-item">
+                    </div>
+                    <div>
+                        <h3>Proposta de Valor</h3>
+                        <img src="../../images/msteams/proposta-de-valor-placeholder.jpg" class="img-item">
+                    </div>
+                </div>
+                <p style="font-style: italic;">clique nas imagens para ampliar</p>
+
+                <h1>Os Principais Problemas</h1>
+                <p>
+                    Com base no gráfico de principais dificuldades levantado através das pesquisas e entrevistas,
+                    desenvolvemos os canvas de Perfil do Cliente e Proposta de Valor para definir os maiores problemas
+                    para os usuários e como o produto se proporcionaria a solucioná-los.<br/>
+                    Decidimos então que os principais problemas a serem atacados seriam:
+                </p>
+
+                <img src="../../images/msteams/os problemas.jpg" style="margin: 80px auto;">
+            </div>
+
+
+            <div class="teams-text">
+                <h1 class="h1-highlight">As Soluções</h1>
+            </div>
+            
+
+            <!-- Primeiro Protótipo -->
+            <div class="teams-text">
+                <h1 class="h1-highlight">Protótipo Inicial</h1>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7BEPMqK1w3xpSxXak3AH7%2FGrupo-4-MS-Teams%3Fnode-id%3D2%253A38%26scaling%3Dscale-down"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="teams-text">
+                <h1 class="h1-highlight">Testes de Usabilidade</h1>
+            </div>
+
+            <div class="teams-text">
+                <h1 class="h1-highlight">Protótipo Final</h1>
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600"
+                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FV7BEPMqK1w3xpSxXak3AH7%2FGrupo-4-MS-Teams%3Fnode-id%3D2%253A38%26scaling%3Dscale-down"
+                    allowfullscreen></iframe>
+            </div>
+
+            
         </div>
 
+
+        <!-- modal -->
+        <div class="modal">
+            <img class="modal-img">
+            <span class="close-modal">&times;</span>
+            <a class="gal-prev">&#10094;</a>
+            <a class="gal-next">&#10095;</a>
+        </div>
     </section>
 
+    <script src="../../scripts/flickity.pkgd.js"></script>
 </body>
+
 </html>
