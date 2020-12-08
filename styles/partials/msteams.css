@@ -30,27 +30,30 @@ hr { border-color: darkmagenta;}
     text-align: center;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-
-    border: 1px solid aqua;
 }
 
 .teams-text {
-    width: 60%;
+    width: 65%;
     text-align: center;
     display: inline-block;
 }
 
-.teams-text h1{
+.teams-text h1 {
     font-size: 1.8rem;
     color: darkmagenta;
 }
 
-.teams-text h3{
+.teams-text h3 {
     /* font-size: 1.8rem; */
     color: darkmagenta;
 }
 
-.teams-text img{
+.teams-text span {
+    color: darkmagenta;
+    font-weight: 600;
+}
+
+.teams-text img {
     width: 100%;
 }
 
@@ -96,3 +99,6 @@ hr { border-color: darkmagenta;}
     background-color: darkmagenta;
 }
 
+@media (max-width: 1300px) {
+    .teams-text { width: 100%; }
+}
