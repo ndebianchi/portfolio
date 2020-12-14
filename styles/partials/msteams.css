@@ -33,7 +33,7 @@ hr { border-color: darkmagenta;}
 }
 
 .teams-text {
-    width: 65%;
+    width: 70%;
     text-align: center;
     display: inline-block;
 }
@@ -97,6 +97,10 @@ hr { border-color: darkmagenta;}
 .teams-2container a:hover {
     color: white;
     background-color: darkmagenta;
+}
+
+@media (max-width: 1600px) {
+    .teams-text { width: 80%; }
 }
 
 @media (max-width: 1300px) {
